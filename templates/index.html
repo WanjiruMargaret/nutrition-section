@@ -4,10 +4,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dog Food Landing Page</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    
+    <link rel="stylesheet" href="style.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
+    <section class="hero-section">
+        <div class="container">
+            <h2 class="section-heading">What makes us different<br>makes them stronger</h2>
+            
+            <div class="hero-grid">
+                <div class="feature-col">
+                    <div class="feature-box">
+                        <div class="icon-circle">🥗</div> <div class="feature-text">
+                            <h4>Real Food</h4>
+                            <p>Wholesome recipes for dogs with real meat and veggies.</p>
+                        </div>
+                    </div>
+                    <div class="feature-box">
+                        <div class="icon-circle">💎</div>
+                        <div class="feature-text">
+                            <h4>Premium Ingredient</h4>
+                            <p>Elevating pet care with unmatched safety and quality.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-center-img">
+                    <img src="images/bowl-comparison.png" alt="Fresh vs Dry food bowl">
+                </div>
+
+                <div class="feature-col">
+                    <div class="feature-box">
+                        <div class="icon-circle">🌿</div>
+                        <div class="feature-text">
+                            <h4>Made Fresh</h4>
+                            <p>We prioritize maintaining the integrity of whole foods and nutrition.</p>
+                        </div>
+                    </div>
+                    <div class="feature-box">
+                        <div class="icon-circle">🩺</div>
+                        <div class="feature-text">
+                            <h4>Vet Developed</h4>
+                            <p>We raise the bar for dog nutrition, surpassing industry expectations.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cta-container">
+                <a href="#" class="btn-primary">Get your dog's healthy meal today!</a>
+                <p class="trust-text">🛡️ 30-day money back guarantee</p>
+                <div class="payment-methods">
+                    <img src="images/payment-icons.png" alt="Payment Methods" style="max-width: 200px; opacity: 0.6;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="nutrition-section">
+        <div class="container nutrition-flex">
+            <div class="nutrition-copy">
+                <h2>Nutrition is the foundation for longer, healthier lives in dogs.</h2>
+                <p>Invest in your dog's future with our scientifically formulated superfood-powered supplements.</p>
+                
+                <div class="stats-container">
+                    <div class="stat-row">
+                        <span class="percentage">97%</span>
+                        <p>Dogs choose our dog food over leading brands because of its real functional ingredients.</p>
+                    </div>
+                    <div class="stat-row">
+                        <span class="percentage">84%</span>
+                        <p>Our dog food provides superior nutrition and a patented probiotic for optimal nutrient absorption.</p>
+                    </div>
+                    <div class="stat-row">
+                        <span class="percentage">92%</span>
+                        <p>Our dog food's high protein and fat digestibility contribute to ideal stool quality.</p>
+                    </div>
+                </div>
+
+                <a href="#" class="btn-primary">Give your furry friend the gift of wholesome nutrition</a>
+            </div>
+
+            <div class="nutrition-media">
+                <img src="images/dog-product.jpg" alt="Dog with food bag" class="rounded-img">
+            </div>
+        </div>
+    </section>
 </body>
 </html>
